@@ -693,10 +693,7 @@ header .navbar-default .navbar-nav li a:hover {
   color: #000;
   background: transparent;
 }
-.navigation .navbar .navbar-nav li.active > a {
-  text-decoration: underline;
-  color: #655E7A;
-}
+
 .navigation .navbar .dropdown-menu {
   border-radius: 0;
   border: none;
@@ -766,23 +763,6 @@ header .navbar-default .navbar-nav li a:hover {
   .dropdown-item {
     padding: 0.6rem 1.5rem;
   }
-}
-
-.dropdown-submenu:hover > .dropdown-item,
-.dropdown-item:hover {
-  background: #655E7A;
-  color: #fff !important;
-}
-
-.dropdown-item.active {
-  text-decoration: underline;
-  background-color: transparent;
-  color: inherit;
-}
-
-.dropdown-submenu.active > .dropdown-toggle {
-  text-decoration: underline;
-  color: inherit;
 }
 
 ul.dropdown-menu li {
